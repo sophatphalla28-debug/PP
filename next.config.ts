@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      // Gumroad-hosted product cover images
+      { protocol: "https", hostname: "public-files.gumroad.com" },
+    ],
+  },
 };
 
 export default nextConfig;
