@@ -1,5 +1,9 @@
 # Money with Wei — Storefront
 
+> This repo also contains a separate, private app: **[`youtube-dashboard/`](youtube-dashboard/README.md)**,
+> a multi-channel YouTube analytics dashboard with an automatic Sunday 08:00 KST weekly report.
+> It deploys as its own Vercel project (Root Directory `youtube-dashboard`) and doesn't affect the storefront.
+
 A one-page website for [www.moneywithwei.com](https://www.moneywithwei.com) showcasing the
 digital products (PDF guides + spreadsheets) sold on
 [Gumroad](https://sophatphalla.gumroad.com).
